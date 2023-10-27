@@ -1,4 +1,4 @@
-package com.netmind.utils.ejb;
+package com.banana.utils.ejb;
 
 import java.util.Properties;
 

@@ -1,4 +1,4 @@
-package com.netmind.servlets;
+package com.banana.servlets;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -14,16 +14,16 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.netmind.beans.Greeter;
-import com.netmind.beans.GreeterBean;
-import com.netmind.utils.ejb.LookerUp;
+import com.banana.beans.Greeter;
+import com.banana.beans.GreeterBean;
+import com.banana.utils.ejb.LookerUp;
 
 @WebServlet("/consumegreets")
 public class GreeterClientServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	final static Logger logger = Logger.getLogger("GreeterClientServlet");
 
-	@EJB(mappedName = "ejb:/GreeterEJB//GreeterBean!com.netmind.beans.Greeter")
+	@EJB(mappedName = "ejb:/GreeterEJB//GreeterBean!com.banana.beans.Greeter")
 	private Greeter ejb;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)

@@ -1,4 +1,4 @@
-package com.netmind.ejbs;
+package com.banana.ejbs;
 
 import javax.ejb.Local;
 

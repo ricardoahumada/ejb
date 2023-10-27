@@ -1,4 +1,4 @@
-package com.netmind.beans;
+package com.banana.beans;
 
 import java.util.logging.Logger;
 

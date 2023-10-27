@@ -1,4 +1,4 @@
-package com.netmind.beans;
+package com.banana.beans;
 
 import javax.ejb.Remote;
 

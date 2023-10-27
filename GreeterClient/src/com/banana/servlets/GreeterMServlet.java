@@ -1,4 +1,4 @@
-package com.netmind.servlets;
+package com.banana.servlets;
 
 import java.io.IOException;
 import java.util.logging.Logger;
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.netmind.ejbs.LocalAccessToCaller;
+import com.banana.ejbs.LocalAccessToCaller;
 
 @WebServlet("/greet")
 public class GreeterMServlet extends HttpServlet {

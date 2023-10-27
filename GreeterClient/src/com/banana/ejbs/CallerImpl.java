@@ -1,4 +1,4 @@
-package com.netmind.ejbs;
+package com.banana.ejbs;
 
 import java.util.logging.Logger;
 
@@ -6,7 +6,7 @@ import javax.ejb.EJB;
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 
-import com.netmind.beans.Greeter;
+import com.banana.beans.Greeter;
 
 /**
  * Session Bean implementation class CallerImpl
@@ -15,7 +15,7 @@ import com.netmind.beans.Greeter;
 public class CallerImpl implements LocalAccessToCaller {
 	final static Logger logger = Logger.getLogger("CallerImpl");
 	
-	@EJB(mappedName = "ejb:/GreeterEJB//GreeterBean!com.netmind.beans.Greeter")
+	@EJB(mappedName = "ejb:/GreeterEJB//GreeterBean!com.banana.beans.Greeter")
 	private Greeter greeter;
 
 	@Override

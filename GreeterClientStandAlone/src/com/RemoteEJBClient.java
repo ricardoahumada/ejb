@@ -6,8 +6,8 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
-import com.netmind.beans.Greeter;
-import com.netmind.beans.GreeterBean;
+import com.banana.beans.Greeter;
+import com.banana.beans.GreeterBean;
  
  
 public class RemoteEJBClient {
